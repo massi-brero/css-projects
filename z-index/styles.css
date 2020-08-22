@@ -1,0 +1,35 @@
+.box-set {
+  background: #eaeaed;
+  height: 160px;
+  position: relative;
+}
+.box {
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  background: #50eb72;
+  border: 2px solid #ff7b29;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+}
+.box-1 {
+  left: 10px;
+  top: 10px;
+}
+.box-2 {
+  bottom: 10px;
+  left: 70px;
+  z-index: 3;
+}
+.box-3 {
+  left: 130px;
+  top: 10px;
+  z-index: 2;
+}
+.box-4 {
+  bottom: 10px;
+  left: 190px;
+  z-index: 1;
+}

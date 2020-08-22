@@ -1,0 +1,33 @@
+html {
+  vertical-align: baseline;
+}
+
+.box-set {
+  background: #eaeaed;
+}
+
+.box {
+  background: #2db34a;
+  box-shadow: 0 15px 20px #ff7b29;
+  float: left;
+  height: 6em;
+  color: white;
+  text-align: center;
+  padding-block: 20px 0;
+  margin: 1.858736059%;
+  width: 29.615861214%;
+}
+
+.box:nth-child(2) {
+  position: relative;
+  top: 20px;
+}
+
+.group:before,
+.group:after {
+  content: '';
+  display: table;
+}
+.group:after {
+  clear: both;
+}

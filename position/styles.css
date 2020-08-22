@@ -1,0 +1,96 @@
+/* relative */
+
+/* 
+.box-set {
+  background: #eaeaed;
+}
+.box {
+  height: 80px;
+  position: relative;
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  background: #50eb72;
+  height: 80px;
+  width: 80px;
+}
+.box-1 {
+  top: 30px;
+}
+.box-2 {
+  left: 40px;
+}
+.box-3 {
+  bottom: -10px;
+  right: 20px;
+} */
+
+/* absolute */
+/* .box-set {
+  background: #eaeaed;
+  height: 200px;
+  position: relative;
+}
+.box {
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  background: #50eb72;
+  height: 80px;
+  position: absolute;
+  width: 80px;
+}
+.box-1 {
+  top: 6%;
+  left: 2%;
+}
+.box-2 {
+  top: 0;
+  right: -40px;
+}
+.box-3 {
+  bottom: -10px;
+  right: 20px;
+}
+.box-4 {
+  bottom: 0;
+} */
+
+/* absolute */
+.box {
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  background: #50eb72;
+  height: 80px;
+  position: fixed;
+  width: 80px;
+  top: 6%;
+}
+.box-1 {
+  left: 6%;
+}
+.box-2 {
+  left: 16%;
+}
+.box-3 {
+  left: 26%;
+}
+.box-4 {
+  left: 36%;
+}
+
+.text {
+  margin-top: 10%;
+}
+
+footer {
+  background: #2db34a;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
